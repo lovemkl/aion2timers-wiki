@@ -1,0 +1,97 @@
+{
+  "site": {
+    "name": "Aion 2 Timers Wiki",
+    "shortName": "Aion 2 Timers",
+    "tagline": "Hub de fãs",
+    "description": "Hub de fãs dos timers do Aion 2 — timer de fendas do espaço-tempo, chefes mundiais, calculadora de skills, planejador de builds, localizações e eventos.",
+    "legalNotice": "Hub não oficial. Sem afiliação com a NCSoft."
+  },
+  "nav": { "guides": "Guias", "timers": "Timers", "tools": "Ferramentas", "reference": "Referência", "home": "Início", "menu": "Menu", "toggleTheme": "Alternar tema" },
+  "home": {
+    "meta": {
+      "title": "Aion 2 Timers: Fendas, chefes, eventos e ferramentas",
+      "description": "Cada timer do Aion 2 — horário de fendas, janelas de chefes, calendário de eventos e resets, mais calculadora e planejador de builds."
+    },
+    "hero": {
+      "eyebrow": "Hub de fãs",
+      "title": "Aion 2 Timers",
+      "description": "Aion 2 roda em relógios — fendas que abrem com horário, chefes mundiais que surgem em janelas, eventos por tempo limitado e resets que estruturam o dia. Este hub rastreia tudo: horários de fendas e chefes, calendário de eventos, cada localização mapeada e a calculadora e o planejador para transformar espera em preparação.",
+      "primaryCta": "Ler o guia de timers",
+      "secondaryCta": "Ver o trailer",
+      "tertiaryCta": "Todos os guias",
+      "stats": ["Fendas", "Chefes", "Eventos", "Ferramentas"]
+    },
+    "updates": { "title": "Tracker", "browse": "Ver guias", "viewAll": "Ver tudo" },
+    "start": {
+      "eyebrow": "Roda no relógio em quatro lances",
+      "title": "Seu sistema de timers",
+      "cards": [
+        { "number": "1", "title": "Ancore seu reset", "description": "Saiba seu reset de cor — é o ponto fixo em volta do qual cada dia eficiente se constrói." },
+        { "number": "2", "title": "Escolha suas janelas", "description": "Duas ou três janelas recorrentes por semana que sejam suas — um jogo que possui toda janela te possui." },
+        { "number": "3", "title": "Posicione-se pelo mapa", "description": "Chegue antes de a janela abrir — as localizações premiam o preparado." },
+        { "number": "4", "title": "Construa nos intervalos", "description": "Tempo de espera é planejamento — calculadora e planejador transformam intervalos no próximo build." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Mais lidos",
+      "title": "Em alta",
+      "quickLinks": ["Fendas", "Chefes", "Tools", "Eventos"],
+      "cards": [
+        { "title": "Fendas espaço-tempo", "description": "O horário, as janelas e o padrão de staging — o relógio mais rastreado do jogo." },
+        { "title": "Chefes mundiais", "description": "Janelas de spawn, tabelas de loot e como as crews organizam os drops mais raros." },
+        { "title": "Calculadora de skills", "description": "Cada ponto planejado no papel — respecs economizados, ramificações testadas." },
+        { "title": "Planejador de builds", "description": "Skills, estigmas e equipamento compostos em loadouts com plano de aquisição mapeado." }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Aion 2 Timers?",
+      "paragraphs": [
+        "Aion 2 é o MMORPG sequência da NCSoft — e sob o voo e a guerra de facções, o endgame roda no tempo: fendas com horário, chefes em janelas, eventos que vão e vêm e resets que estruturam o dia. A diferença entre casual e sério é menos habilidade e mais domínio do relógio.",
+        "Este hub é a camada de relógios feita por fãs: horários de fendas e chefes, cada localização mapeada, calendário de eventos e resets, e as ferramentas — calculadora e planejador — para os intervalos entre janelas."
+      ],
+      "stats": [
+        { "label": "Jogo", "value": "Aion 2" }, { "label": "Desenvolvedora", "value": "NCSoft" }, { "label": "Relógios", "value": "Fendas e chefes" }, { "label": "Calendário", "value": "Eventos e resets" }, { "label": "Tools", "value": "Calc e planner" }, { "label": "Mapas", "value": "Localizações" }
+      ],
+      "cta": "Explorar guias"
+    },
+    "explore": {
+      "title": "Cada relógio, mapeado",
+      "description": "Timers, ferramentas, guias e referência.",
+      "modules": [
+        { "order": 1, "name": "Fendas espaço-tempo", "description": "O relógio assinatura.", "href": "/timers/spacetime-rift-timer", "displayType": "code-cards", "highlights": [{ "label": "Janelas", "detail": "Horário, staging e perfis de recompensa", "badge": "Tracked" }] },
+        { "order": 2, "name": "Chefes mundiais", "description": "O loot mais raro no relógio.", "href": "/timers/world-boss-timer", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Janelas — posicione antes, fique" }, { "label": "2", "detail": "Tabelas de loot — chefes para seus itens" }, { "label": "3", "detail": "Organização — um horário compartilhado" }] },
+        { "order": 3, "name": "Calculadora", "description": "Cada ponto no papel.", "href": "/tools/skill-calculator", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Destino primeiro — o build de cap completo" }, { "label": "2", "detail": "Bandeie o caminho — climb antes de cap" }, { "label": "3", "detail": "Teste as ramificações — ambos os lados" }] },
+        { "order": 4, "name": "Planejador", "description": "O banco de loadouts.", "href": "/tools/build-planner", "displayType": "tier-grid", "highlights": [{ "label": "S", "detail": "Composição por função — o build existe para algo" }, { "label": "A", "detail": "Gear por valor marginal — tudo quantificado" }, { "label": "B", "detail": "Stress de rotação — planilhas que travam são planilhas" }, { "label": "C", "detail": "Preço de aquisição — mapeia para janelas" }] },
+        { "order": 5, "name": "Localizações", "description": "Cada ponto mapeado.", "href": "/reference/rift-locations", "displayType": "card-list", "highlights": [{ "label": "🗺", "detail": "Catálogo por zona com notas de staging" }, { "label": "🧭", "detail": "Rotas — cluster, corredor, âncora" }, { "label": "👥", "detail": "Posições de grupo — um mapa, uma crew" }] },
+        { "order": 6, "name": "Eventos", "description": "O calendário estratégico.", "href": "/reference/event-schedule", "displayType": "card-list", "highlights": [{ "label": "📅", "detail": "Eventos — janelas, recompensas, tempo" }, { "label": "🔄", "detail": "Resets — âncora diária, front-load semanal" }, { "label": "🎯", "detail": "Matching de gargalo — ofertas, não emprego" }] },
+        { "order": 7, "name": "Guia de timers", "description": "Cada relógio explicado.", "href": "/guide/aion-2-timers-guide", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Por que timers definem o endgame" }, { "label": "2", "detail": "Quatro categorias — fendas, chefes, eventos, resets" }, { "label": "3", "detail": "Timers como filtro, não coleira" }] },
+        { "order": 8, "name": "O sistema", "description": "O loop e as proteções.", "href": "/guide/how-to-use-timers", "displayType": "card-list", "highlights": [{ "label": "⚓", "detail": "Ancore em resets, agende em spawns" }, { "label": "🛑", "detail": "O stop — decidido antes de logar" }, { "label": "📋", "detail": "Permissão de pular — janela perdida é arredondamento" }] }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rápidas sobre os timers do Aion 2.",
+      "items": [
+        { "question": "Quais os timers mais importantes?", "answer": "O horário de fendas e as janelas de chefes carregam o conteúdo gated mais valioso; os resets diário/semanal são a espinha que estrutura todo o resto." },
+        { "question": "Horários mudam por servidor?", "answer": "Ancoram no horário do servidor — confirme sempre o offset do seu antes de programar alarmes." },
+        { "question": "Usar timers e calculadoras é permitido?", "answer": "Completamente — referências externas sobre informação publicada, o mesmo gênero das tools de toda comunidade MMO." },
+        { "question": "Posso jogar a sério sem trackers?", "answer": "Pode — só vai perder conteúdo temporizado que não conhece. O tracking custa um marcador e se paga numa semana." }
+      ]
+    },
+    "finalCta": { "title": "Esteja lá quando a fenda abre.", "description": "Horários, mapas, calendário e ferramentas — tudo para rodar seu dia em relógios escolhidos por você.", "primary": "Ler o guia", "secondary": "Site oficial" }
+  },
+  "shared": { "wikiNavigation": "Navegação", "activeCodes": "Tracker", "updated": "Atualizado", "viewAllCodes": "Ver guias", "inThisSection": "Nesta seção", "tableOfContents": "Índice", "nextSteps": "Próximos", "needHelp": "Ajuda?", "relatedReading": "Leituras", "relatedGuides": "Guias", "readMore": "Ler mais", "officialMedia": "Mídia", "home": "Início", "noGuidesAvailable": "Sem guias ainda." },
+  "footer": {
+    "aboutTitle": "Aion 2 Timers Wiki",
+    "about": "Aion 2 Timers Wiki é um hub independente de fãs sobre cada timer e ferramenta do Aion 2 — fendas, chefes, eventos, calculadora e planejador.",
+    "quickLinks": "Links", "guides": "Guias", "legal": "Jurídico",
+    "copyright": "2026 Aion 2 Timers Wiki. Sem afiliação com a NCSoft. Aion 2 e suas marcas são propriedade da NCSoft.",
+    "description": "O hub de timers do Aion 2 — fendas, chefes, eventos e as tools entre janelas.",
+    "playGame": "Site oficial", "officialDiscord": "Comunidade", "officialYoutube": "r/aion", "epicStore": "NCSoft",
+    "beginnerGuide": "Guia de timers", "mapGuides": "Fendas", "weaponsGuides": "Calculadora", "buildGuide": "Localizações", "privacyPolicy": "Privacidade", "termsOfService": "Termos"
+  },
+  "guide": { "overviewTitle": "Guias", "overviewDescription": "Todos os guias de Aion 2 Timers — orientação completa e o sistema do jogador." },
+  "timers": { "overviewTitle": "Horários", "overviewDescription": "Os relógios rastreados — fendas e chefes com staging e loot." },
+  "tools": { "overviewTitle": "Ferramentas", "overviewDescription": "Calculadora e planejador — o banco onde a espera vira o próximo build." },
+  "reference": { "overviewTitle": "Referência", "overviewDescription": "Cada localização mapeada, mais o calendário de eventos e resets." }
+}

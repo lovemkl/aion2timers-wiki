@@ -1,0 +1,13 @@
+{
+  "name": "Aion 2 Timers Wiki",
+  "short_name": "Aion 2 Timers",
+  "description": "Fan hub for Aion 2 timers and tools — spacetime rift timer, world boss timer, skill calculator, build planner, rift locations and event schedules.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#100c1a",
+  "theme_color": "#b8923f",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

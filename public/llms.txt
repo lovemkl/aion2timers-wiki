@@ -1,0 +1,18 @@
+# Aion 2 Timers Wiki
+
+> Fan hub for Aion 2 timers and tools — spacetime rift timer, world boss timer, skill calculator, build planner, rift locations and event schedules.
+
+Site: https://aion2timers.wiki
+
+## About
+Fan hub for Aion 2 timers and tools — the spacetime rift timer, world boss timer, skill calculator, build planner, rift locations and event schedules for NCSoft's Aion 2.
+
+## Guides
+- [Aion 2 Timers: Every Timer Explained](https://aion2timers.wiki/guide/aion-2-timers-guide): Every timer in Aion 2 explained — spacetime rifts, world bosses, events and daily resets, and why tracking them defines endgame efficiency.
+- [How to Use Aion 2 Timers: A Player's System](https://aion2timers.wiki/guide/how-to-use-timers): The system for running on timers — building your daily loop around spawns, rifts and resets without burning out.
+- [Spacetime Rift Timer: Schedule and Tracking](https://aion2timers.wiki/timers/spacetime-rift-timer): The Aion 2 spacetime rift timer explained — the schedule, what rifts drop and how to be there when they open.
+- [World Boss Timer: Spawn Schedule and Loot](https://aion2timers.wiki/timers/world-boss-timer): The Aion 2 world boss timer — spawn windows, loot tables and how serious farming crews organize around them.
+- [Aion 2 Skill Calculator: Plan Every Point](https://aion2timers.wiki/tools/skill-calculator): The skill calculator explained — planning skill points, respecting cheaply and testing builds before you commit in game.
+- [Build Planner: Theorycraft Your Class](https://aion2timers.wiki/tools/build-planner): The Aion 2 build planner — combining skills, stigmas and gear into builds you can test on paper before grinding in game.
+- [Spacetime Rift Locations: Every Spawn Point](https://aion2timers.wiki/reference/rift-locations): Every spacetime rift location in Aion 2 mapped — spawn points, zones and how to route between them.
+- [Event Schedule: All Limited-Time Events](https://aion2timers.wiki/reference/event-schedule): The Aion 2 event schedule — limited-time events, daily and weekly resets and the calendar worth planning around.

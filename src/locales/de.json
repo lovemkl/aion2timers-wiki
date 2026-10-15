@@ -1,0 +1,96 @@
+{
+  "site": {
+    "name": "Aion 2 Timers Wiki",
+    "shortName": "Aion 2 Timers",
+    "tagline": "Fan-Hub",
+    "description": "Fan-Hub für Aion-2-Timer und -Tools — Raumzeit-Rift-Timer, Weltboss-Timer, Skill-Rechner, Build-Planer, Rift-Standorte und Eventkalender."
+  },
+  "nav": { "guides": "Guides", "timers": "Timer", "tools": "Werkzeuge", "reference": "Nachschlagen", "home": "Start", "menu": "Menü", "toggleTheme": "Design wechseln" },
+  "home": {
+    "meta": {
+      "title": "Aion 2 Timers: Rifts, Bosse, Events & Tools",
+      "description": "Jeder Aion-2-Timer — Raumzeit-Rift-Zeitplan, Weltboss-Fenster, Event- und Reset-Kalender, plus Skill-Rechner und Build-Planer."
+    },
+    "hero": {
+      "eyebrow": "Fan-Hub",
+      "title": "Aion 2 Timers",
+      "description": "Aion 2 läuft auf Uhren — Raumzeit-Rifts, die nach Zeitplan aufreißen, Weltbosse, die in Fenstern spawnen, Events, die Wochen leben, und Resets, die jeden Tag strukturieren. Dieser Hub trackt sie alle: die Rift- und Boss-Zeitpläne, den Eventkalender, jeden Rift-Standort kartiert und Skill-Rechner und Build-Planer für die Wartezeit zwischen den Fenstern.",
+      "primaryCta": "Timer-Guide lesen",
+      "secondaryCta": "Trailer ansehen",
+      "tertiaryCta": "Alle Guides",
+      "stats": ["Rifts", "Weltbosse", "Events", "Tools"]
+    },
+    "updates": { "title": "Uhren-Tracker", "browse": "Alle Guides", "viewAll": "Alle" },
+    "start": {
+      "eyebrow": "Vier Züge auf der Uhr",
+      "title": "Dein Timer-System",
+      "cards": [
+        { "number": "1", "title": "Verankere deinen Reset", "description": "Kenne deine Reset-Zyte auswendig — der Fixpunkt, um den jeder effiziente Tag gebaut wird." },
+        { "number": "2", "title": "Wähle deine Fenster", "description": "Zwei, drei wiederkehrende Fenster pro Woche, die deine sind — ein Spiel, das jedes Fenster besitzt, besitzt dich." },
+        { "number": "3", "title": "Positioniere nach Karte", "description": "Sei vor Öffnung des Fensters da — die Standorte belohnen den Vorbereiteten." },
+        { "number": "4", "title": "Baue in den Lücken", "description": "Wartezeit ist Planungszeit — Rechner und Planer machen Lücken zu deinem nächsten Build." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Diese Woche top",
+      "title": "Im Trend",
+      "quickLinks": ["Rifts", "Bosse", "Tools", "Events"],
+      "cards": [
+        { "title": "Raumzeit-Rift-Timer", "description": "Der Zeitplan, die Fenster und das Staging-Muster — die meistgetrackte Uhr des Spiels." },
+        { "title": "Weltboss-Timer", "description": "Spawn-Fenster, Loot-Tabellen und wie Farming-Crews die seltensten Drops organisieren." },
+        { "title": "Skill-Rechner", "description": "Jeder Punkt auf Papier geplant — Respecs gespart, Zweige getestet, Builds geteilt." },
+        { "title": "Build-Planer", "description": "Skills, Stigmas und Gear zu kompletten Loadouts mit Erwerbsplan auf Fenster gemappt." }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Aion 2 Timers?",
+      "paragraphs": [
+        "Aion 2 ist NCSofts MMORPG-Fortsetzung — und unter Flug und Fraktionskrieg läuft das Endgame auf Zeit: Rifts mit Zeitplan, Bosse in Fenstern, Events, die kommen und gehen, und Resets, die jeden Tag gliedern. Der Unterschied zwischen casual und seriös ist weniger Skill als Uhren-Beherrschung.",
+        "Dieser Hub ist die von Fans gebaute Uhren-Schicht: Rift- und Boss-Zeitpläne, jeder Standort kartiert, der Event- und Reset-Kalender und die Planungs-Tools — Skill-Rechner und Build-Planer — für die Lücken zwischen Fenstern."
+      ],
+      "stats": [
+        { "label": "Spiel", "value": "Aion 2" }, { "label": "Entwickler", "value": "NCSoft" }, { "label": "Uhren", "value": "Rifts & Bosse" }, { "label": "Kalender", "value": "Events & Resets" }, { "label": "Tools", "value": "Calc & Planner" }, { "label": "Karten", "value": "Rift-Standorte" }
+      ],
+      "cta": "Alle Guides"
+    },
+    "explore": {
+      "title": "Jede Uhr, kartiert",
+      "description": "Timer, Tools, Guides und Referenz.",
+      "modules": [
+        { "order": 1, "name": "Raumzeit-Rifts", "description": "Die Signatur-Uhr.", "href": "/timers/spacetime-rift-timer", "displayType": "code-cards", "highlights": [{ "label": "Fenster", "detail": "Zeitplan, Staging und Belohnungsprofile", "badge": "Getrackt" }] },
+        { "order": 2, "name": "Weltboss-Timer", "description": "Der seltenste Loot auf Uhr.", "href": "/timers/world-boss-timer", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Fenster — vorher positionieren, bleiben" }, { "label": "2", "detail": "Loot-Tabellen — Bosse zu deinen Items" }, { "label": "3", "detail": "Organisation — ein geteilter Zeitplan" }] },
+        { "order": 3, "name": "Skill-Rechner", "description": "Jeder Punkt auf Papier.", "href": "/tools/skill-calculator", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Ziel zuerst — der Cap-Build komplett" }, { "label": "2", "detail": "Level-Banden — Climb vor Cap" }, { "label": "3", "detail": "Zweige stressen — beide Seiten gerechnet" }] },
+        { "order": 4, "name": "Build-Planer", "description": "Die Loadout-Werkbank.", "href": "/tools/build-planner", "displayType": "tier-grid", "highlights": [{ "label": "S", "detail": "Aufgaben-first — der Build existiert für etwas" }, { "label": "A", "detail": "Gear nach Grenzwert — alles quantifiziert" }, { "label": "B", "detail": "Rotations-Stress — blockierende Blätter sind Tabellen" }, { "label": "C", "detail": "Erwerbspreis — gemappt auf Fenster" }] },
+        { "order": 5, "name": "Rift-Standorte", "description": "Jeder Spawnpunkt kartiert.", "href": "/reference/rift-locations", "displayType": "card-list", "highlights": [{ "label": "🗺", "detail": "Katalog nach Zone mit Staging-Notizen" }, { "label": "🧭", "detail": "Routen — Cluster, Korridor, Anker" }, { "label": "👥", "detail": "Gruppenpositionen — eine Karte, eine Crew" }] },
+        { "order": 6, "name": "Eventkalender", "description": "Der strategische Kalender.", "href": "/reference/event-schedule", "displayType": "card-list", "highlights": [{ "label": "📅", "detail": "Events — Fenster, Belohnungen, Zeit" }, { "label": "🔄", "detail": "Resets — Tagesanker, Wochen-Vorverlag" }, { "label": "🎯", "detail": "Engpass-Matching — Angebote, kein Job" }] },
+        { "order": 7, "name": "Der Timer-Guide", "description": "Jede Uhr erklärt.", "href": "/guide/aion-2-timers-guide", "displayType": "step-by-step", "highlights": [{ "label": "1", "detail": "Warum Timer das Endgame definieren" }, { "label": "2", "detail": "Vier Kategorien — Rifts, Bosse, Events, Resets" }, { "label": "3", "detail": "Timer als Filter, nicht Leine" }] },
+        { "order": 8, "name": "Das System", "description": "Der Loop und die Guardrails.", "href": "/guide/how-to-use-timers", "displayType": "card-list", "highlights": [{ "label": "⚓", "detail": "Anker in Resets, Plan in Spawns" }, { "label": "🛑", "detail": "Der Stop — vor dem Login entschieden" }, { "label": "📋", "detail": "Die Skip-Erlaubnis — verpasstes Fenster ist Rundungsfehler" }] }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "description": "Schnelle Antworten zu Aion-2-Timern.",
+      "items": [
+        { "question": "Welche Timer sind am wichtigsten?", "answer": "Der Rift-Zeitplan und die Weltboss-Fenster tragen das wertvollste gegatete Content; Tages- und Wochen-Resets sind das stille Rückgrat für alles andere." },
+        { "question": "Unterscheiden sich Zeitpläne pro Server?", "answer": "Sie verankern auf Serverzeit — bestätige immer deinen Offset, bevor du Alarme setzt." },
+        { "question": "Sind Timer und Rechner erlaubt?", "answer": "Vollständig — externe Planungsreferenzen über publizierte Spielinfos, dasselbe Genre wie jede MMO-Community-Tools." },
+        { "question": "Kann ich seriös ohne Tracking spielen?", "answer": "Ja — du verpasst nur zeitgebundenen Content, den du nicht kennst. Tracking kostet ein Lesezeichen und zahlt sich in einer Woche aus." }
+      ]
+    },
+    "finalCta": { "title": "Sei da, wenn das Rift aufreißt.", "description": "Zeitpläne, Karten, Kalender und Tools — alles, um deinen Tag auf selbstgewählten Uhren zu fahren.", "primary": "Guide lesen", "secondary": "Offizielle Seite" }
+  },
+  "shared": { "wikiNavigation": "Navigation", "activeCodes": "Tracker", "updated": "Aktualisiert", "viewAllCodes": "Alle Guides", "inThisSection": "In dieser Sektion", "tableOfContents": "Inhalt", "nextSteps": "Nächste", "needHelp": "Hilfe?", "relatedReading": "Weiterlesen", "relatedGuides": "Verwandte Guides", "readMore": "Mehr", "officialMedia": "Medien", "home": "Start", "noGuidesAvailable": "Noch keine Guides." },
+  "footer": {
+    "aboutTitle": "Aion 2 Timers Wiki",
+    "about": "Aion 2 Timers Wiki ist ein unabhängiger Fan-Hub zu jedem Timer und Tool in Aion 2 — Rifts, Bosse, Events, Skill-Rechner und Build-Planer.",
+    "quickLinks": "Links", "guides": "Guides", "legal": "Rechtliches",
+    "copyright": "2026 Aion 2 Timers Wiki. Nicht mit NCSoft verbunden. Aion 2 und alle Marken gehören NCSoft.",
+    "description": "Der Aion-2-Timer-Hub — Rifts, Bosse, Events und die Tools zwischen Fenstern.",
+    "playGame": "Offizielle Seite", "officialDiscord": "Community", "officialYoutube": "r/aion", "epicStore": "NCSoft",
+    "beginnerGuide": "Timer-Guide", "mapGuides": "Rift-Timer", "weaponsGuides": "Skill-Rechner", "buildGuide": "Rift-Standorte", "privacyPolicy": "Datenschutz", "termsOfService": "Nutzungsbedingungen"
+  },
+  "guide": { "overviewTitle": "Guides", "overviewDescription": "Alle Aion-2-Timer-Guides — volle Orientierung und das Spieler-System." },
+  "timers": { "overviewTitle": "Zeitpläne", "overviewDescription": "Die getrackten Uhren — Raumzeit-Rifts und Weltbosse mit Staging und Loot." },
+  "tools": { "overviewTitle": "Werkzeuge", "overviewDescription": "Skill-Rechner und Build-Planer — die Bank, wo Wartezeit zum nächsten Build wird." },
+  "reference": { "overviewTitle": "Referenz", "overviewDescription": "Jeder Rift-Standort kartiert, plus Event- und Reset-Kalender." }
+}
