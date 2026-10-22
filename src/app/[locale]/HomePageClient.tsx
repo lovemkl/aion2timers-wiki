@@ -19,14 +19,14 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
   const YOUTUBE_VIDEO_ID = "YYelxy0eEsA";
 
   return (
-    <div className="space-y-16">
+    <div className="min-w-0 space-y-16">
       {/* Hero Section — full-bleed astral rift backdrop */}
       <section className="relative overflow-hidden rounded-lg border border-[hsl(190_82%_52%/0.4)] px-4 py-14 text-center shadow-[0_0_50px_hsl(190_80%_45%/0.16)] sm:py-20">
         <div className="absolute inset-0 -z-10">
           <img src="/images/hero.webp" alt="" aria-hidden className="size-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/80 to-background" />
         </div>
-        <div className="mx-auto mb-5 flex items-center justify-center gap-2">
+        <div className="mx-auto mb-5 flex flex-wrap items-center justify-center gap-2">
           <h1 className="text-4xl font-extrabold tracking-tight text-foreground drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)] sm:text-5xl lg:text-6xl">{home.hero.title}</h1>
           <span className="mt-2 inline-flex items-center rounded-md border border-[hsl(var(--nav-theme))] bg-[hsl(var(--nav-theme))] px-2.5 py-0.5 text-xs font-semibold text-primary-foreground sm:-translate-y-1.5">{home.hero.eyebrow}</span>
         </div>
@@ -58,7 +58,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
             ))}
           </div>
           <Button asChild className="mt-5 w-full" variant="outline">
-            <Link href={localizeHref("/codes", locale)}>{home.updates.browse}</Link>
+            <Link href={localizeHref("/guide", locale)}>{home.updates.browse}</Link>
           </Button>
         </Card>
 
@@ -157,7 +157,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
                             <code className="rounded-lg bg-background px-3 py-1.5 font-mono text-sm font-bold text-foreground">{h.label}</code>
                             <span className="text-sm text-muted-foreground">{h.detail}</span>
                           </div>
-                          {"badge" in h && h.badge && <Badge className="shrink-0 bg-emerald-600 text-white text-[10px]">{h.badge}</Badge>}
+                          {"badge" in h && typeof h.badge === "string" && h.badge && <Badge className="shrink-0 bg-emerald-600 text-white text-[10px]">{h.badge}</Badge>}
                         </div>
                       ))}
                     </div>

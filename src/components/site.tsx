@@ -18,10 +18,10 @@ export function localizeHref(href: string, locale: string) {
 export async function SiteHeader({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "nav" });
   const header = (
-    <div className="flex items-center justify-between gap-4">
-      <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
-        <span className="grid h-9 w-9 place-items-center rounded-xl border border-border bg-muted text-sm font-black text-foreground">✧</span>
-        <span className="text-sm font-bold tracking-wide text-foreground">Aion 2 Timers Wiki</span>
+    <div className="flex items-center justify-between gap-2 sm:gap-4">
+      <Link href={localizeHref("/", locale)} className="flex min-w-0 items-center gap-2 sm:gap-3">
+        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-border bg-muted text-sm font-black text-foreground">✧</span>
+        <span className="min-w-0 break-words text-sm font-bold tracking-wide text-foreground">Aion 2 Timers Wiki</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
         {NAVIGATION_CONFIG.map((item) => (
@@ -30,7 +30,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
           </Link>
         ))}
       </nav>
-      <div className="flex items-center gap-2">
+      <div className="flex shrink-0 items-center gap-1 sm:gap-2">
         <LanguageSwitcher locale={locale} />
         <ThemeToggle label={t("toggleTheme")} />
         <Sheet>
