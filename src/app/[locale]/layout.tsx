@@ -8,6 +8,8 @@ import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import { JsonLd, SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
+import { StickyBanner } from "@/components/ads/StickyBanner";
+import { SidebarAds } from "@/components/ads/SidebarAds";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const display = Cinzel({ weight: ["600", "700"], subsets: ["latin"], variable: "--font-display" });
@@ -50,6 +52,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   return (
     <html lang={locale} className={`${inter.variable} ${display.variable}`} suppressHydrationWarning>
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
+        <StickyBanner />
+        <SidebarAds />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <NextIntlClientProvider messages={messages}>
             <JsonLd data={organization} />
