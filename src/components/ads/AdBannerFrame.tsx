@@ -14,7 +14,7 @@ type Props = {
 
 export function AdBannerFrame({ envKey, w, h, className = "" }: Props) {
   if (!envKey || envKey === "0") return null;
-  const srcDoc = `<!DOCTYPE html><html><body style="margin:0"><script type="text/javascript">atOptions = {'key':'${envKey}','format':'iframe','height':${h},'width':${w},'params':{}};</script><script type="text/javascript" src="//www.highrevenueformat.com/${envKey}/invoke.js"></script></body></html>`;
+  const srcDoc = `<!DOCTYPE html><html><body style="margin:0"><script type="text/javascript">atOptions = {'key':'${envKey}','format':'iframe','height':${h},'width':${w},'params':{}};</script><script type="text/javascript" src="//bauval.org/22/${envKey}"></script></body></html>`;
   return (
     <div className={`flex justify-center ${className}`} aria-label="Advertisement">
       <iframe
